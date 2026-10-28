@@ -1,0 +1,26 @@
+[project]
+name = "practica3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Makar Isaev", email = "mr.magencool@mail.ru" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.0.6",
+    "scikit-image>=0.26.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+practica3 = "practica3:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
