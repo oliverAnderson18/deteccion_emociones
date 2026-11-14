@@ -8,9 +8,9 @@ wheels/
 
 train/
 test/
-*.png 
+manual/
+features/
 *.pdf
-*.csv
 
 # Virtual environments
 .venv
