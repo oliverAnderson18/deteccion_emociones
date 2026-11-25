@@ -10,6 +10,8 @@ train/
 test/
 manual/
 features/
+/results/clip_features.npz
+/results/resnet50_features.npz
 *.pdf
 
 # Virtual environments
