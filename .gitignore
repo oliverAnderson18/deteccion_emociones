@@ -12,6 +12,7 @@ manual/
 features/
 /results/clip_features.npz
 /results/resnet50_features.npz
+/results/fer2013_subconjunto.zip
 *.pdf
 
 # Virtual environments
